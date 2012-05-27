@@ -1,0 +1,48 @@
+#!/bin/bash
+#
+# scan disk and jbods for blink disk
+# by shibaboy
+
+path="/root/blink_hdd"
+
+export LD_LIBRARY_PATH=$path"/lib/.libs"
+
+if [ -f /usr/gnu/bin/sed ]
+then
+	echo "link sed is exist"
+	echo "[SKIP make link file]"
+else
+	echo "[MAKE link file]"
+	ln -s /usr/bin/sed /usr/gnu/bin/
+fi
+
+echo "=========== Make Directory ============"
+echo ""
+echo "Make disks directory ..."
+mkdir -p $path"/disks"
+echo "done"
+echo "Make jbods direcoty ..."
+mkdir -p $path"/jbods"
+echo "done"
+echo ""
+
+echo "======= Initialization Directory ======"
+rm -rf "./disks/*"
+rm -rf "./jbods/*"
+echo "initialization disks and jbods folder done"
+echo ""
+
+echo "=========== Refresh Links ============="
+devfsadm -C 
+echo "Refresh disk links done"
+echo ""
+
+echo "============= SCAN start =============="
+echo ""
+for disk in /dev/rdsk/*d0; do $path/src/sg_inq -p 0x83 $disk > $path/disks/$(basename $disk); done
+for enc in /dev/es/ses*; do $path/src/sg_ses -p 0xa $enc > $path/jbods/$(basename $enc); done
+echo "SCAN complete"
+
+# ./src/sg_ses -p 0x2 -f --raw /dev/es/ses9 > ses9
+# ./src/sg_ses --control -p 0x2 -d - /dev/es/ses9 < ses9
+

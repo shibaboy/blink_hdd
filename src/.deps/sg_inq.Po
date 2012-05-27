@@ -1,0 +1,102 @@
+sg_inq.o sg_inq.o: sg_inq.c /usr/include/unistd.h \
+  /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h \
+  /usr/include/sys/isa_defs.h /usr/include/sys/types.h \
+  /usr/include/sys/machtypes.h /usr/include/ia32/sys/machtypes.h \
+  /usr/include/sys/int_types.h /usr/include/sys/select.h \
+  /usr/include/sys/time_impl.h /usr/include/sys/time.h \
+  /usr/include/time.h /usr/include/iso/time_iso.h \
+  /usr/include/sys/unistd.h /usr/include/fcntl.h /usr/include/sys/fcntl.h \
+  /usr/include/stdio.h /usr/include/iso/stdio_iso.h \
+  /usr/include/sys/va_list.h /usr/include/stdio_tag.h \
+  /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h \
+  /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h \
+  /usr/include/iso/stdlib_c99.h /usr/include/string.h \
+  /usr/include/iso/string_iso.h /usr/include/ctype.h \
+  /usr/include/iso/ctype_iso.h /usr/include/iso/ctype_c99.h \
+  /usr/include/getopt.h /usr/include/inttypes.h \
+  /usr/include/sys/inttypes.h /usr/include/sys/int_limits.h \
+  /usr/include/sys/int_const.h /usr/include/sys/int_fmtio.h \
+  /usr/include/sys/stdint.h ../config.h ../include/sg_lib.h \
+  /usr/include/stdint.h ../include/sg_cmds_basic.h
+
+/usr/include/unistd.h:
+
+/usr/include/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/machtypes.h:
+
+/usr/include/ia32/sys/machtypes.h:
+
+/usr/include/sys/int_types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/time_impl.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/iso/time_iso.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/sys/fcntl.h:
+
+/usr/include/stdio.h:
+
+/usr/include/iso/stdio_iso.h:
+
+/usr/include/sys/va_list.h:
+
+/usr/include/stdio_tag.h:
+
+/usr/include/stdio_impl.h:
+
+/usr/include/iso/stdio_c99.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/iso/stdlib_iso.h:
+
+/usr/include/iso/stdlib_c99.h:
+
+/usr/include/string.h:
+
+/usr/include/iso/string_iso.h:
+
+/usr/include/ctype.h:
+
+/usr/include/iso/ctype_iso.h:
+
+/usr/include/iso/ctype_c99.h:
+
+/usr/include/getopt.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/sys/inttypes.h:
+
+/usr/include/sys/int_limits.h:
+
+/usr/include/sys/int_const.h:
+
+/usr/include/sys/int_fmtio.h:
+
+/usr/include/sys/stdint.h:
+
+../config.h:
+
+../include/sg_lib.h:
+
+/usr/include/stdint.h:
+
+../include/sg_cmds_basic.h:

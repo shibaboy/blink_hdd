@@ -1,0 +1,15 @@
+<Usage of blink_hdd>
+
+1. untar file on root directory (/root/blink_hdd/)
+	# have to untar here. 
+2. scan all disks and jbods ($sh scan)
+3. find where is a disk ($./blink_xx.py -w disk_name)
+	# have to choose a proper script for each Snode. 
+	# for EPC pod1-12 -> blink_v2.py
+	# for EPC pod13~ -> blink_jb7.py
+4. blink the disk ($./blink_xx.py -o disk_name)
+5. unblink the disk ($./blink_xx.py -f disk_name)
+6. blink all disks ($sh blink_all)
+
+Thanks for using this tool.
+by shibaboy

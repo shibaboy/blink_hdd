@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# blink all disk
+# by shibaboy
+
+for disk in $(ls ../disks)
+do
+	./blink_v2.py -o  $disk # for epc 1-12
+	#./blink_jb7.py -o $disk # for epc 13, 14
+	sleep 1
+
+done

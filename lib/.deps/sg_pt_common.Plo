@@ -1,0 +1,32 @@
+sg_pt_common.lo sg_pt_common.o: sg_pt_common.c /usr/include/stdlib.h \
+  /usr/include/iso/stdlib_iso.h /usr/include/sys/feature_tests.h \
+  /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h \
+  /usr/include/iso/stdlib_c99.h ../include/sg_pt.h /usr/include/stdint.h \
+  /usr/include/sys/stdint.h /usr/include/sys/int_types.h \
+  /usr/include/sys/int_limits.h /usr/include/sys/int_const.h ../config.h
+
+/usr/include/stdlib.h:
+
+/usr/include/iso/stdlib_iso.h:
+
+/usr/include/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:
+
+/usr/include/iso/stdlib_c99.h:
+
+../include/sg_pt.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/stdint.h:
+
+/usr/include/sys/int_types.h:
+
+/usr/include/sys/int_limits.h:
+
+/usr/include/sys/int_const.h:
+
+../config.h:

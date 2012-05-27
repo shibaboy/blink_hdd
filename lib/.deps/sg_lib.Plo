@@ -1,0 +1,70 @@
+sg_lib.lo sg_lib.o: sg_lib.c /usr/include/stdio.h \
+  /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h \
+  /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h \
+  /usr/include/sys/va_list.h /usr/include/stdio_tag.h \
+  /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h \
+  /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h \
+  /usr/include/iso/stdlib_c99.h /usr/include/string.h \
+  /usr/include/iso/string_iso.h /usr/include/ctype.h \
+  /usr/include/iso/ctype_iso.h /usr/include/iso/ctype_c99.h \
+  /usr/include/inttypes.h /usr/include/sys/inttypes.h \
+  /usr/include/sys/int_types.h /usr/include/sys/int_limits.h \
+  /usr/include/sys/int_const.h /usr/include/sys/int_fmtio.h \
+  /usr/include/sys/stdint.h ../include/sg_lib.h /usr/include/stdint.h \
+  ../include/sg_lib_data.h ../config.h
+
+/usr/include/stdio.h:
+
+/usr/include/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:
+
+/usr/include/iso/stdio_iso.h:
+
+/usr/include/sys/va_list.h:
+
+/usr/include/stdio_tag.h:
+
+/usr/include/stdio_impl.h:
+
+/usr/include/iso/stdio_c99.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/iso/stdlib_iso.h:
+
+/usr/include/iso/stdlib_c99.h:
+
+/usr/include/string.h:
+
+/usr/include/iso/string_iso.h:
+
+/usr/include/ctype.h:
+
+/usr/include/iso/ctype_iso.h:
+
+/usr/include/iso/ctype_c99.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/sys/inttypes.h:
+
+/usr/include/sys/int_types.h:
+
+/usr/include/sys/int_limits.h:
+
+/usr/include/sys/int_const.h:
+
+/usr/include/sys/int_fmtio.h:
+
+/usr/include/sys/stdint.h:
+
+../include/sg_lib.h:
+
+/usr/include/stdint.h:
+
+../include/sg_lib_data.h:
+
+../config.h:

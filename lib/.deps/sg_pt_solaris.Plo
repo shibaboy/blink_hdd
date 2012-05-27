@@ -1,0 +1,128 @@
+sg_pt_solaris.lo sg_pt_solaris.o: sg_pt_solaris.c /usr/include/stdio.h \
+  /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h \
+  /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h \
+  /usr/include/sys/va_list.h /usr/include/stdio_tag.h \
+  /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h \
+  /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h \
+  /usr/include/iso/stdlib_c99.h /usr/include/string.h \
+  /usr/include/iso/string_iso.h /usr/include/ctype.h \
+  /usr/include/iso/ctype_iso.h /usr/include/iso/ctype_c99.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/sys/machtypes.h /usr/include/ia32/sys/machtypes.h \
+  /usr/include/sys/int_types.h /usr/include/sys/select.h \
+  /usr/include/sys/time_impl.h /usr/include/sys/time.h \
+  /usr/include/time.h /usr/include/iso/time_iso.h \
+  /usr/include/sys/unistd.h /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/fcntl.h /usr/include/sys/fcntl.h /usr/include/sys/param.h \
+  /usr/include/sys/scsi/generic/commands.h \
+  /usr/include/sys/scsi/generic/inquiry.h \
+  /usr/include/sys/scsi/impl/inquiry.h \
+  /usr/include/sys/scsi/generic/sense.h \
+  /usr/include/sys/scsi/impl/sense.h \
+  /usr/include/sys/scsi/impl/commands.h \
+  /usr/include/sys/scsi/generic/status.h \
+  /usr/include/sys/scsi/impl/status.h /usr/include/sys/scsi/impl/types.h \
+  /usr/include/sys/scsi/impl/uscsi.h ../include/sg_pt.h \
+  /usr/include/stdint.h /usr/include/sys/stdint.h \
+  /usr/include/sys/int_limits.h /usr/include/sys/int_const.h \
+  ../include/sg_lib.h ../config.h
+
+/usr/include/stdio.h:
+
+/usr/include/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:
+
+/usr/include/iso/stdio_iso.h:
+
+/usr/include/sys/va_list.h:
+
+/usr/include/stdio_tag.h:
+
+/usr/include/stdio_impl.h:
+
+/usr/include/iso/stdio_c99.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/iso/stdlib_iso.h:
+
+/usr/include/iso/stdlib_c99.h:
+
+/usr/include/string.h:
+
+/usr/include/iso/string_iso.h:
+
+/usr/include/ctype.h:
+
+/usr/include/iso/ctype_iso.h:
+
+/usr/include/iso/ctype_c99.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/machtypes.h:
+
+/usr/include/ia32/sys/machtypes.h:
+
+/usr/include/sys/int_types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/time_impl.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/iso/time_iso.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/sys/fcntl.h:
+
+/usr/include/sys/param.h:
+
+/usr/include/sys/scsi/generic/commands.h:
+
+/usr/include/sys/scsi/generic/inquiry.h:
+
+/usr/include/sys/scsi/impl/inquiry.h:
+
+/usr/include/sys/scsi/generic/sense.h:
+
+/usr/include/sys/scsi/impl/sense.h:
+
+/usr/include/sys/scsi/impl/commands.h:
+
+/usr/include/sys/scsi/generic/status.h:
+
+/usr/include/sys/scsi/impl/status.h:
+
+/usr/include/sys/scsi/impl/types.h:
+
+/usr/include/sys/scsi/impl/uscsi.h:
+
+../include/sg_pt.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/stdint.h:
+
+/usr/include/sys/int_limits.h:
+
+/usr/include/sys/int_const.h:
+
+../include/sg_lib.h:
+
+../config.h:
